@@ -1,0 +1,16 @@
+{
+  "services": [
+    {"title": "Замена масла в двигателе", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/замена-масла.png"},
+    {"title": "Обслуживание тормозной системы", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/тормозная-система.png"},
+    {"title": "Установка защитной сетки", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/защитная-сетка.png"},
+    {"title": "Замена цепи ГРМ", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/цепь-грм.jpg"},
+    {"title": "Ремонт ходовой части", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/ходовая-часть.jpg"},
+    {"title": "Установка защитной сетки в бампер", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/защитная-сетка.png"},
+    {"title": "Мойка радиаторов", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/мойка-радиатора.jpg"},
+    {"title": "Ремонт КПП", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/ремонт-кпп.jpg"},
+    {"title": "Ремонт двигателя", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/ремонт-двигателя.jpg"},
+    {"title": "Ремонт ДСГ7, DSG, S-tronic", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/ремонт-дсг.jpg"},
+    {"title": "Замена сцепления", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/замена-сцепления.jpg"},
+    {"title": "Обслуживание системы охлаждения", "description":  "Ауди (Audi), Порше (Porshe), Фольксваген (Volkswagen), Шкода (Skoda), Сеат (Seat)", "coast": "1 ₽", "image": "../images/система-охлаждения.jpg"}
+  ]
+}

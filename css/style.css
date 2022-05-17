@@ -1,0 +1,46 @@
+.navbar-brand img, #about img{
+    border-radius: 15%;
+}
+
+.rating-count::before {
+    display: inline-block;
+    width: 90px;
+    margin-right: 5px;
+    height: 18px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgPHBhdGggZD0iTTcuNTI0NDcsMS40NjM1MjQgQzcuNjc0MTUsMS4wMDI4Njg0MSA4LjMyNTg1LDEuMDAyODY5OTYgOC40NzU1MywxLjQ2MzUyNSBMOS42ODM4Niw1LjE4MjM3IEM5Ljc1MDc5LDUuMzg4MzggOS45NDI3Nyw1LjUyNzg2IDEwLjE1OTM4LDUuNTI3ODYgTDE0LjA2OTYsNS41Mjc4NiBDMTQuNTU0LDUuNTI3ODYgMTQuNzU1NCw2LjE0NzY3IDE0LjM2MzUsNi40MzIzNyBMMTEuMjAwMSw4LjczMDc1IEMxMS4wMjQ4LDguODU4MDcgMTAuOTUxNDksOS4wODM3NSAxMS4wMTg0LDkuMjg5NzYgTDEyLjIyNjgsMTMuMDA4NiBDMTIuMzc2NCwxMy40NjkzIDExLjg0OTIsMTMuODUyMyAxMS40NTczLDEzLjU2NzYgTDguMjkzODksMTEuMjY5MyBDOC4xMTg2NSwxMS4xNDE5IDcuODgxMzUsMTEuMTQxOSA3LjcwNjExLDExLjI2OTMgTDQuNTQyNjcsMTMuNTY3NiBDNC4xNTA4MSwxMy44NTIzIDMuNjIzNTcsMTMuNDY5MyAzLjc3MzI1LDEzLjAwODYgTDQuOTgxNTcsOS4yODk3NiBDNS4wNDg1MSw5LjA4Mzc1IDQuOTc1MTgsOC44NTgwNyA0Ljc5OTk0LDguNzMwNzUgTDEuNjM2NDk1LDYuNDMyMzcgQzEuMjQ0NjM5LDYuMTQ3NjcgMS40NDYwMjgsNS41Mjc4NiAxLjkzMDM5LDUuNTI3ODYgTDUuODQwNjIsNS41Mjc4NiBDNi4wNTcyMyw1LjUyNzg2IDYuMjQ5MjEsNS4zODgzOCA2LjMxNjE0LDUuMTgyMzcgTDcuNTI0NDcsMS40NjM1MjQgWiIgZmlsbD0iI0ZGRDM1MyIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+Cjwvc3ZnPg==);
+    background-size: contain;
+    content: '';
+}
+
+.bg-landing {
+    background-blend-mode: multiply;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 0;
+    padding-top: 310px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.card-img-top img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-description {
+    height: 50px;
+}
+.carousel-item {
+    height: 420px;
+    overflow-y: clip;
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" rel="shortcut icon" href="../images/favicon.ico">
+    <title>МануVAGтура - Автосервис, автотехцентр</title>
+
+    <link as="font" crossorigin="crossorigin" href="https://yastatic.net/s3/home/fonts/ys/1/text-regular.woff2"
+          rel="preload" type="font/woff2" />
+    <link as="font" crossorigin="crossorigin" href="https://yastatic.net/s3/home/fonts/ys/1/text-medium.woff2"
+          rel="preload" type="font/woff2" />
+    <link as="font" crossorigin="crossorigin" href="https://yastatic.net/s3/home/fonts/ys/1/text-bold.woff2" rel="preload"
+          type="font/woff2" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/logo.jpg" alt="" width="50" class="d-inline-block align-text-top">
+                <span class="align-middle">МануVAGтура</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">О нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalog">Услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#rating">Отзывы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#request">Заявка на ТО</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="container-fluid bg-landing text-light">
+            <div class="container pt-lg-5">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="rating fs-3">
+                            <span class="rating-count fw-bold">5.0</span> на
+                            <a href="#rating" class="link-light">Яндексе</a>
+                        </div>
+                        <h1>МануVAGтура</h1>
+                        <span>Автосервис, автотехцентр</span>
+                    </div>
+                    <div class="col-3 text-end">
+                        <img src="../images/logo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Мы осуществляем</h1>
+                        <p class="lead">Техническое обслуживание и ремонт автомобилей концерна VAG
+                            Audi, Porsсhe, Volkswagen, Skoda, Seat.</p>
+                        <p>
+                            <a href="#catalog" class="btn btn-light my-2">Список услуг</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="catalog" class="bg-light pb-5">
+            <div class="container">
+                <div class="d-flex align-items-center py-3 pb-3 mb-4 border-bottom">
+                    <i class="bi-gear fs-2 pe-2"></i>
+                    <h1>Список услуг</h1>
+                </div>
+                <div id="services" class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+                    <!--Каталог загружается из ./resources/services.json при помощи JavaScript-->
+                </div>
+            </div>
+        </section>
+
+        <section id="rating" class="mt-3">
+            <div class="container">
+                <div class="d-flex align-items-center py-3 pb-3 mb-4 border-bottom">
+                    <i class="bi-clipboard2-pulse fs-2 pe-2"></i>
+                    <h1>Список отзывов</h1>
+                </div>
+                <div id="myCarousel" class="carousel carousel-dark slide p-5" data-bs-ride="carousel">
+                    <div id="reviews" class="carousel-inner">
+                        <!--Отзывы загружаются из ./resources/reviews.json при помощи JavaScript-->
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="request" class="bg-light pb-5">
+            <div class="container">
+                <div class="d-flex align-items-center py-3 pb-3 mb-4 border-bottom">
+                    <i class="bi-bell fs-2 pe-2"></i>
+                    <h1>Оставить заявку</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 col-lg-8 offset-md-2">
+                        <form id="requestForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label for="firstName" class="form-label">Имя</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
+                                    <div class="invalid-feedback">
+                                        Имя обязательно для заполнения.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="lastName" class="form-label">Фамилия</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
+                                    <div class="invalid-feedback">
+                                        Фамилия обязательна для заполнения.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="email" class="form-label">Эл. адрес</label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text">@</span>
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+                                        <div class="invalid-feedback">
+                                            Пожалуйста, введите действующий адрес электронной почты для получения информации о статусе заявки.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="phone" class="form-label">Телефон</label>
+                                    <input type="text" class="form-control" id="phone" name="phone" required>
+                                    <div class="invalid-feedback">
+                                        Телефон обязателен для заполнения.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="model" class="form-label">Модель автомобиля</label>
+                                    <select class="form-select" id="model" name="model" required>
+                                        <option selected>Выберите из списка</option>
+                                        <option value="Audi">Ауди (Audi)</option>
+                                        <option value="Porshe">Порше (Porshe)</option>
+                                        <option value="Volkswagen">Фольксваген (Volkswagen)</option>
+                                        <option value="Skoda">Шкода (Skoda)</option>
+                                        <option value="Seat">Сеат (Seat)</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Необходимо указать модель автомобиля.
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <label for="service" class="form-label">Предоставляемые услуги</label>
+                                    <select class="form-select" id="service" name="service" required>
+                                        <option selected>Выберите услугу из списка</option>
+                                        <option value="Замена масла в двигателе">Замена масла в двигателе</option>
+                                        <option value="Компьютерная диагностика">Компьютерная диагностика</option>
+                                        <option value="Замена масла АКПП">Замена масла АКПП</option>
+                                        <option value="Замена цепи ГРМ">Замена цепи ГРМ</option>
+                                        <option value="Заправка кондиционера">Заправка кондиционера</option>
+                                        <option value="Обслуживание тормозной системы">Обслуживание тормозной системы</option>
+                                        <option value="Обслуживание системы охлаждения">Обслуживание системы охлаждения</option>
+                                        <option value="Замена сцепления">Замена сцепления</option>
+                                        <option value="Ремонт DSG, S-tronic, ДСГ7">Ремонт DSG, S-tronic, ДСГ7</option>
+                                        <option value="Ремонт двигателя">Ремонт двигателя</option>
+                                        <option value="Ремонт КПП">Ремонт КПП</option>
+                                        <option value="Ремонт ходовой части">Ремонт ходовой части</option>
+                                        <option value="Мойка радиаторов">Мойка радиаторов</option>
+                                        <option value="Установка защитной сетки в бампер">Установка защитной сетки в бампер</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Необходимо выбрать услугу из списка.
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="my-4">
+                            <input class="w-100 btn btn-primary btn-lg" type="submit" value="Оформить заявку">
+                        </form>
+                        <!-- Модальное окно при создании заявки-->
+                        <div class="modal fade" id="requestCreatedModal" tabindex="-1" aria-labelledby="requestCreatedModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Заявка успешно создана</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Персонал свяжется с вами после рассмотрения заявки</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Вернуться наверх</a>
+            </p>
+            <p class="mb-1">&copy; Грузинов Андрей Михайлович | ИЭзс-62-19</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
