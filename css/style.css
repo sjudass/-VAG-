@@ -44,3 +44,11 @@
     height: 420px;
     overflow-y: clip;
 }
+
+.carousel-control-prev {
+    justify-content: flex-start;
+}
+
+.carousel-control-next {
+    justify-content: flex-end;
+}
