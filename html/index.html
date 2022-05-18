@@ -21,7 +21,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top p-0">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#" data-bs-toggle="modal" data-bs-target="#loginModalForm">
                 <img src="../images/logo.jpg" alt="" width="50" class="d-inline-block align-text-top">
                 <span class="align-middle">МануVAGтура</span>
             </a>
@@ -46,7 +46,6 @@
             </div>
         </div>
     </nav>
-
     <main>
         <section id="about" class="container-fluid bg-landing text-light">
             <div class="container pt-lg-5">
@@ -221,6 +220,42 @@
             </div>
         </section>
     </main>
+
+    <div class="modal fade" id="loginModalForm" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="loginModalFormLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loginModalFormLabel">Авторизация</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                </div>
+                <form id="loginForm" class="needs-validation" novalidate>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="login" class="col-form-label">Логин:</label>
+                            <input type="text" class="form-control" id="login" name="login" required>
+                            <div class="invalid-feedback">
+                                Логин обязателен для заполнения.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="col-form-label">Пароль:</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                            <div class="invalid-feedback">
+                                Пароль обязателен для заполнения.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-between">
+                        <div class="text-danger"></div>
+                        <div class="inputs">
+                            <input type="button" class="btn btn-secondary" data-bs-dismiss="modal" value="Закрыть">
+                            <input type="submit" class="btn btn-primary" value="Войти">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <footer class="text-muted py-5">
         <div class="container">
